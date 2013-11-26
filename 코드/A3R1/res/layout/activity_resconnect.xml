@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <Button
+        android:id="@+id/button_cores_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="420dp"
+        android:text="확인" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="274dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_x="172dp"
+        android:layout_y="274dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="244dp"
+        android:text="출발지" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="178dp"
+        android:layout_y="240dp"
+        android:text="도착지" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_x="4dp"
+        android:layout_y="57dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView_test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="338dp"
+        android:text="출발지 : " />
+
+    <TextView
+        android:id="@+id/textView_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="183dp"
+        android:layout_y="340dp"
+        android:text="도착지 : " />
+
+</AbsoluteLayout>
