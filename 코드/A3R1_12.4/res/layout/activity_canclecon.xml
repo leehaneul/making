@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_concancel_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="420dp"
+        android:text="확인" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="151dp"
+        android:text="이름 : "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="223dp"
+        android:text="주민번호  : "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/Text_can_number"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="218dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/Text_can_name"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="142dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</AbsoluteLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <ListView
+        android:id="@+id/Cancel_list"
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        android:layout_x="2dp"
+        android:layout_y="32dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/button_concel_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="128dp"
+        android:layout_y="404dp"
+        android:text="완료" />
+
+</AbsoluteLayout>
